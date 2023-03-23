@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Portugol
 " Maintainer: Nelson Lima <nelsontlima@gmail.com>
-" URL: github url
+" URL: https://github.com/NelsonTLima/vim-portugol-highlight.git
 
 if !exists("main_syntax")
     if exists("b:current_syntax")
