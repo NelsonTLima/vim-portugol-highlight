@@ -15,6 +15,7 @@ endif
 let s:cpo_save = &cpo
 set cpo&vim
 
+syn match   portugolIdentifier      "[a-zA-Z_]\w*"
 syn match   portugolLineComment     "\/\/.*"
 syn match   portugolCommentSkip     "^[ \t]*\*\($\|[ \t]\+\)"
 syn region  portugolComment         start="/\*"  end="\*/"
@@ -52,6 +53,7 @@ if main_syntax == "portugol"
 endif
 
 "REGEXES
+hi def link portugolIdentifier          Identifier
 hi def link portugolComment             Comment
 hi def link portugolLineComment         Comment
 hi def link portugolSpecial             Special
