@@ -16,12 +16,12 @@ formal.
 
 ## INSTALE NATIVAMENTE
 
-'''
+```
 mkdir ~/.vim/pack/vim-portugol-highlight ;
 mkdir ~/.vim/pack/vim-portugol-highlight/start ;
 mkdir ~/.vim/pack/vim-portugol-highlight/start/vim-portugol-highlight
 git clone https://github.com/NelsonTLima/vim-portugol-highlight.git ~/.vim/pack/vim-portugol-highlight/start/vim-portugol-highlight ;
-'''
+```
 
  Copyright (c) 2023 Nelson Lima.
 
