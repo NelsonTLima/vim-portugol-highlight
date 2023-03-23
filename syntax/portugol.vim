@@ -59,7 +59,7 @@ hi def link portugolComment             Comment
 hi def link portugolLineComment         Comment
 hi def link portugolSpecial             Special
 hi def link portugolStringS             String
-hi def link portugolStringD             wString
+hi def link portugolStringD             String
 hi def link portugolStringT             String
 hi def link portugolCharacter           Character
 hi def link portugolSpecialCharacter    portugolSpecial
