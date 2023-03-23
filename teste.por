@@ -27,6 +27,7 @@ programa{
         leia()
         escreva()
         Leia() LLLLeia()
+        fun(comargumento) fun(com, mais, de, um, real argumento, "aa")
         verdadeiro falso
         se
         senao se

@@ -33,7 +33,7 @@ syn match   portugolNumber          "\<[1-9]\d*\(_\d\+\)*\(\.\(\d\+\(_\d\+\)*\([
 syn match   portugolNumber          "\<\(\d\+\(_\d\+\)*\)\?\.\d\+\(_\d\+\)*\([eE][+-]\?\d\+\)\?\>"
 syn match   portugolNumber          "\<\d\+\(_\d\+\)*\.\(\d\+\(_\d\+\)*\([eE][+-]\?\d\+\)\?\)\?\>"
 syn region  portugolRegexpString    start=+[,(=+]\s*/[^/*]+ms=e-1,me=e-1 skip=+\\\\\|\\/+ end=+/[gimuys]\{0,2\}\s*$+ end=+/[gimuys]\{0,2\}\s*[+;.,)\]}]+me=e-1 end=+/[gimuys]\{0,2\}\s\+\/+me=e-1
-syn match   portugolFunction        "\w*\ze()"
+syn match   portugolFunction        "\w*\ze(\w*\s*)"
 syn match   portugolRegexOperator  "[+=.><-\*%!?]"
 
 syn keyword portugolConditional     se senao
