@@ -13,13 +13,20 @@ programa{
         real x
         inteiro y
         cadeia z
-        Constante camelCase
+        1variavel
+        Constante
+        camelCase
+        _variavel
+        variavel_com_underline
+        variavel_com_numero_1
+        CONSTANTE
         x = 0.1
         y = 1+1 == 1*1 <=4 =>5?:;
         z = "isso é uma string"
         z = 'Isso também é uma string'
         leia()
         escreva()
+        Leia() LLLLeia()
         verdadeiro falso
         se
         senao se
