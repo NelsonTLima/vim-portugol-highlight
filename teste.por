@@ -13,6 +13,7 @@ programa{
         real x
         inteiro y
         cadeia z
+        Constante camelCase
         x = 0.1
         y = 1+1 == 1*1 <=4 =>5?:;
         z = "isso é uma string"
