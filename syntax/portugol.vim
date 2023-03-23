@@ -80,11 +80,6 @@ hi def link portugolBoolean             Boolean
 hi def link portugolInclude             Include
 hi def link portugolLabel               Label
 
-"todo
-"hi def link portugolBraces		Function
-"hi def link portugolConstant		Label
-"hi def link portugolNull		Keyword
-
 let b:current_syntax = "portugol"
 if main_syntax == 'portugol'
     unlet main_syntax
