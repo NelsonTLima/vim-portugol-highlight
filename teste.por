@@ -1,5 +1,5 @@
 //isso é um comentário.
-isso não é um comentario.
+isso nao e um comentario.
 
 /* issso é um
 comentário
@@ -14,8 +14,8 @@ programa{
         inteiro y
         cadeia z
         x = 0.1
-        y = 1
-        z = "Isso é uma string."
+        y = 1+1 == 1*1 <=4 =>5?:;
+        z = "isso é uma string"
         z = 'Isso também é uma string'
         leia()
         escreva()
