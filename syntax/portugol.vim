@@ -34,6 +34,7 @@ syn match   portugolNumber          "\<\(\d\+\(_\d\+\)*\)\?\.\d\+\(_\d\+\)*\([eE
 syn match   portugolNumber          "\<\d\+\(_\d\+\)*\.\(\d\+\(_\d\+\)*\([eE][+-]\?\d\+\)\?\)\?\>"
 syn region  portugolRegexpString    start=+[,(=+]\s*/[^/*]+ms=e-1,me=e-1 skip=+\\\\\|\\/+ end=+/[gimuys]\{0,2\}\s*$+ end=+/[gimuys]\{0,2\}\s*[+;.,)\]}]+me=e-1 end=+/[gimuys]\{0,2\}\s\+\/+me=e-1
 syn match   portugolFunction        "[a-zA-Z_]\w*\ze()"
+syn match   portugolRegexOperator  "[+=.><-\*%!?]"
 
 syn keyword portugolConditional     se senao
 syn keyword portugolRepeat          enquanto para
@@ -65,7 +66,7 @@ hi def link portugolSpecialCharacter    portugolSpecial
 hi def link portugolNumber              Number
 hi def link portugolRegexpString        String
 hi def link portugolFunction            Function
-
+hi def link portugolRegexOperator       Operator
 
 "KEYWORDS
 hi def link portugolConditional         Conditional
