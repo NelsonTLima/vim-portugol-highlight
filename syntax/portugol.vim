@@ -45,7 +45,7 @@ syn keyword portugolTypeDef         funcao classe programa
 syn keyword portugolStatement       retorne faca
 syn keyword portugolBoolean         verdadeiro falso
 syn keyword portugolInclude         inclua biblioteca
-syn keyword portugolLabel           caso
+syn keyword portugolLabel           escolha caso
 
 if main_syntax == "portugol"
     syn sync fromstart
