@@ -2,6 +2,7 @@
 " Language: Portugol
 " Maintainer: Nelson Lima <nelsontlima@gmail.com>
 " URL: https://github.com/NelsonTLima/vim-portugol-highlight.git
+" Mostly based on Claudio Fleiner's JavasCript syntax file. <claudio@fleiner.com>
 
 if !exists("main_syntax")
     if exists("b:current_syntax")
@@ -24,6 +25,8 @@ syn match   portugolSpecial         "\\\d\d\d\|\\."
 syn region  portugolStringD         start=+"+  skip=+\\\\\|\\"+  end=+"\|$+
 syn region  portugolStringS         start=+'+  skip=+\\\\\|\\'+  end=+'\|$+
 syn region  portugolStringT         start=+`+  skip=+\\\\\|\\`+  end=+`+
+
+" number handling by Christopher Leonard chris.j.leonard@gmx.com
 syn match   portugolSpecialCharacter "'\\.'"
 syn match   portugolNumber          "\<0[bB][0-1]\+\(_[0-1]\+\)*\>"
 syn match   portugolNumber          "\<0[oO][0-7]\+\(_[0-7]\+\)*\>"
